@@ -1,2 +1,5 @@
 # Personal notes
 Lessons/
+
+# Database files
+*.duckdb
