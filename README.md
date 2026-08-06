@@ -1,11 +1,10 @@
 # SQL Data Engineering Projects
 
 <p align="center">
-  <img src="Images/0_000_repository_workflow.png
-" width="100%">
+  <img src="Images/0_000_repository_workflow.png" alt="Repository Workflow" width="100%">
 </p>
 
-A collection of SQL-based data engineering projects focused on building production-style analytical data platforms.
+A collection of SQL-based data engineering projects focused on building production-style analytical data platforms..
 
 The repository demonstrates the complete lifecycle of modern data engineering—from exploratory analysis to dimensional modeling, ETL pipelines, and analytical data marts using DuckDB.
 
