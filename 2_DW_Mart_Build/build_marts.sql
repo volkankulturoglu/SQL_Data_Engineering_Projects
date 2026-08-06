@@ -2,14 +2,17 @@
 
 
 
-
--- Step 1: DW - Create star schema tables (Data Warehouse)
+-- Step 1: DW - Create star schema tables
 .read 01_create_tables_dw.sql
 
---Step 2 :DW - Load data from CSV files into star schema tables (Data Warehouse)
+-- Step 2: DW - Load data from CSV files into star schema
 .read 02_load_schema_dw.sql
 
+-- Step 3: Mart - Create flat mart (denormalized table)
+.read 03_create_flat_mart.sql
 
-SELECT *
-FROM job_postings_fact
-LIMIT 10;
+-- Step 4: Mart - Create skills demand mart
+.read 04_create_skills_mart.sql
+
+-- Step 5: Mart - Create priority mart
+.read 05_create_priority_mart.sql
