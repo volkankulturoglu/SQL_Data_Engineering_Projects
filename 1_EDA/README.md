@@ -145,10 +145,10 @@ Median salaries are compared for remote and non-remote positions across job titl
 
 ---
 
-## 📁 Repository Structure
+## 📁 Project Structure
 
 ```text
-SQL_DATA_ENGINEERING_PROJECTS/
+
 │
 ├── 1_EDA/
 │   ├── 01_top_demanded_skills.sql
@@ -156,8 +156,8 @@ SQL_DATA_ENGINEERING_PROJECTS/
 │   ├── 03_optimal_skills.sql
 │   └── 04_remote_vs_onsite_salary_comparison.sql
 │
-├── Images/
-└── README.md
+
+└── 
 ```
 
 ---
